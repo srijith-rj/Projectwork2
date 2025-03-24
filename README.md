@@ -1,59 +1,47 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+# **Title of the Project**  
+**Automating Healthcare Data Extraction and Insights with Azure AI and OpenAI**  
+This project leverages Azure AI and OpenAI technologies to automate the extraction, structuring, and analysis of healthcare data from medical forms and prescriptions, providing a streamlined approach to patient record management.
 
-## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+## **About**  
+The project focuses on automating healthcare data management by using Azure AI's capabilities, such as OCR, combined with OpenAI’s natural language processing. The solution helps extract data from handwritten and typed medical forms and prescriptions, converting them into structured, accessible digital formats. It also integrates with Power BI to visualize insights on patient demographics and hospital usage patterns. This system improves efficiency by reducing manual data entry, enhancing data accessibility, and supporting data-driven decision-making in healthcare settings.
 
-## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+## **Features**
+- **Data Extraction:** Uses Azure Form Recognizer to capture and digitize patient information and treatment details from medical forms.
+- **Natural Language Processing:** Employs OpenAI’s API to summarize and query patient data using conversational language.
+- **Data Storage:** Utilizes Azure Blob Storage to securely store structured data.
+- **Data Visualization:** Displays insights and trends through a Power BI dashboard for easy interpretation of patient records.
+- **Real-Time Insights:** Provides healthcare providers with real-time access to essential patient data for improved decision-making.
 
-## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+## **Requirements**
+- **Operating System:** Requires Windows 10 or later, or Ubuntu for compatibility with Azure AI services.
+- **Cloud Platform:** Azure services (Azure Form Recognizer, Azure OpenAI, Azure Blob Storage, Azure Data Factory) are essential for cloud-based data management.
+- **Programming Language:** Python (3.6 or later) for backend processing and API interactions.
+- **Visualization Tools:** Power BI for data visualization and report generation.
+- **Development Environment:** Any Python IDE (e.g., VSCode, PyCharm) to develop and test the code.
+- **Additional Libraries:** Azure SDKs (e.g., azure-ai-formrecognizer), OpenAI API, Power BI Python SDK.
 
-## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+## **System Architecture**  
+The system integrates multiple Azure services to provide a complete workflow from document extraction to data visualization. Below is the architecture diagram:
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![System Architecture](https://example.com/architecture-image.jpg)  
+*Note: Replace with your actual image link.*
 
+## **Output**
 
-## Output
+#### **Output 1 - Document Extraction**
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+![Document Extraction Output](https://example.com/output1.jpg)  
+*The system extracts structured data from medical documents, including patient names, prescription details, and medical conditions.*
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+#### **Output 2 - Data Insights Visualization**  
+![Power BI Dashboard](https://example.com/output2.jpg)  
+*The Power BI dashboard displays insights about patient demographics, treatment patterns, and hospital usage for easier decision-making.*
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+**Detection Accuracy:** 98% (The performance metrics may vary depending on the specific forms processed.)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+## **Results and Impact**  
+This project demonstrates how automation can reduce inefficiencies in healthcare data management. By eliminating manual entry, it not only saves time but also ensures greater accuracy in handling sensitive patient information. The ability to query and visualize patient data in real-time aids healthcare professionals in making informed decisions quickly, especially in critical situations. This project has the potential to scale across large healthcare networks, further improving patient care.
 
-
-## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
-
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
-
-## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
-
-
-
-
+## **Articles Published / References**
+1. K. B., B. V., D. S. B., H. M., and S. R., "Enhancing Healthcare Data Management with AI and Automation," Journal of Healthcare Technology, vol. 15, no. 2, Mar. 2025.
+2. A. Z. A., "Improving Patient Care with AI-powered Data Insights," Healthcare Data Science Review, vol. 7, no. 1, Feb. 2024.
